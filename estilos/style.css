@@ -7,4 +7,20 @@
 
     degrade: d48ccb - d39795ba   */
 
-    
+    @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+    body, html {
+        font-family: "AudioWide" ;
+        background-image: linear-gradient(to bottom, #d48ccb, #d39795 );
+        background-attachment: fixed;
+        color: #543d3c;
+    }
+    header {
+        text-align: center;
+        font-size: 1.8em;
+    }
+    #corfonte {
+        color: #6e3b22;
+        
+        
+    }
