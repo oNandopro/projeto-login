@@ -5,7 +5,12 @@
 
     fonte: #74876d - #543d3c - #6e3b22
 
-    degrade: #d48ccb - #d39795   */
+    degrade: #d48ccb - #d39795  
+    
+    
+    
+    
+    */
 
     @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
@@ -20,9 +25,9 @@
     body, html {
 
         font-family: "AudioWide" ;
-        
         height: 100vh;
         width: 100vw;
+       
 
     }
 
@@ -45,33 +50,14 @@
     }
 
     main#imagem {
-
+        
+        width: 100vw;
         height: 100vh;
         background-image: url(../imagens/genterosa.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
      
-    }
-   
-    footer {
-    
-        padding: 10px;
-        text-align: center;
-        border: 2px solid black;
-        background-color: black;
-        color: #d48ccb;
-    }
-
-    a{
-
-        text-decoration: none;
-        color: #d48ccb;
-    }
-
-    a:hover {
-
-        color: #d816be;
     }
 
     main{
@@ -97,17 +83,48 @@
         transform: translate(-50%, -50%);
         overflow: hidden;
 
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.601);
+
+    }
+
+    div#formulario {
+
+        display: block;
+        padding: 10px;
     }
 
     div#celula {
-        background-color: rgba(0, 0, 0, 0.064);
+        background-color: rgba(0, 0, 0, 0);
        
-        text-align: center;
-       
-     
         height: 200px;
-        height: 150px;
+        height: 200px;
 
+        background-image: url(../imagens/celulavermelhapeq.png);
+        background-size: cover;
+        background-position: center;
+        display: block;
+
+    }
+
+
+    footer {
+    
+        padding: 10px;
+        text-align: center;
+        border: 2px solid black;
+        background-color: black;
+        color: #d48ccb;
+    }
+
+    footer, a{
+
+        text-decoration: none;
+        color: #d48ccb;
+    }
+
+    footer, a:hover {
+
+        color: #d816be;
     }
 
     
