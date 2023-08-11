@@ -17,11 +17,33 @@
         float: right;
         width: 70%;
     }
+
+    div.campo {
+       
+        text-align: center;
+    }
+
+    div#formulario {
+        margin-top: 40px;
+    }
+
     div#formulario > h1 {
         font-size: 2.5em;
         margin-top: 20px;
     }
-    
+    div#formulario > p {
+        font-size: 1.5em;
+        text-align: center;
+        padding: 0px 30px;
+    }
+
+    form #email {
+        margin-top: 30px;
+    }
+
+    form #entrar {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -43,12 +65,13 @@
         height: 60%;
     }
     div#formulario > h1 {
-        font-size: 2.5em;
+        font-size: 2.0em;
         margin-top: 20px;
     }
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1.5em;
         text-align: center;
+        padding: 0px 30px;
     }
 
     div.campo {
